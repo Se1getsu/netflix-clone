@@ -11,6 +11,7 @@
 		A686B3592A811486007F4D9D /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B3582A811486007F4D9D /* UpcomingViewController.swift */; };
 		A686B35B2A8114B2007F4D9D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B35A2A8114B2007F4D9D /* SearchViewController.swift */; };
 		A686B35D2A8114F3007F4D9D /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B35C2A8114F3007F4D9D /* DownloadsViewController.swift */; };
+		A686B3672A8125E0007F4D9D /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B3662A8125E0007F4D9D /* CollectionViewTableViewCell.swift */; };
 		A6997E222A78F92A00909150 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6997E212A78F92A00909150 /* AppDelegate.swift */; };
 		A6997E242A78F92A00909150 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6997E232A78F92A00909150 /* SceneDelegate.swift */; };
 		A6997E262A78F92A00909150 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6997E252A78F92A00909150 /* MainTabBarViewController.swift */; };
@@ -23,6 +24,7 @@
 		A686B3582A811486007F4D9D /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		A686B35A2A8114B2007F4D9D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		A686B35C2A8114F3007F4D9D /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		A686B3662A8125E0007F4D9D /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		A6997E1E2A78F92A00909150 /* netflix-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "netflix-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6997E212A78F92A00909150 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6997E232A78F92A00909150 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,42 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		A686B35E2A812501007F4D9D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A686B3602A812516007F4D9D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A686B3662A8125E0007F4D9D /* CollectionViewTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A686B3632A812553007F4D9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A686B3642A812559007F4D9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A686B3652A812589007F4D9D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		A6997E152A78F92A00909150 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +111,11 @@
 		A6997E202A78F92A00909150 /* netflix-clone */ = {
 			isa = PBXGroup;
 			children = (
+				A686B3652A812589007F4D9D /* Managers */,
+				A686B3642A812559007F4D9D /* Resources */,
+				A686B3632A812553007F4D9D /* Models */,
+				A686B3602A812516007F4D9D /* Views */,
+				A686B35E2A812501007F4D9D /* ViewModels */,
 				A686B3552A81142C007F4D9D /* Controllers */,
 				A6997E212A78F92A00909150 /* AppDelegate.swift */,
 				A6997E232A78F92A00909150 /* SceneDelegate.swift */,
@@ -156,6 +199,7 @@
 			files = (
 				A686B35B2A8114B2007F4D9D /* SearchViewController.swift in Sources */,
 				A6997E262A78F92A00909150 /* MainTabBarViewController.swift in Sources */,
+				A686B3672A8125E0007F4D9D /* CollectionViewTableViewCell.swift in Sources */,
 				A686B35D2A8114F3007F4D9D /* DownloadsViewController.swift in Sources */,
 				A6997E222A78F92A00909150 /* AppDelegate.swift in Sources */,
 				A6997E242A78F92A00909150 /* SceneDelegate.swift in Sources */,

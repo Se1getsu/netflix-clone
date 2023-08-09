@@ -9,7 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    let sectionTitles: [String] = ["Trending Movies", "Popular", "Trending TV", "Upcoming Movies", "Top Rated"]
+    let sectionTitles: [String] = ["Trending Movies", "Trending TV", "Popular", "Upcoming Movies", "Top Rated"]
     
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
@@ -94,6 +94,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         if #available(iOS 14.0, *) {
             var content = header.defaultContentConfiguration()
             content.text = self.tableView(tableView, titleForHeaderInSection: section)
+            content.textProperties.transform = .none
             content.textProperties.font = .systemFont(ofSize: 18, weight: .semibold)
             content.textProperties.color = .white
             header.contentConfiguration = content
@@ -101,6 +102,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
             header.textLabel?.font = .systemFont(ofSize: 18, weight: .semibold)
             header.textLabel?.frame = CGRect(x: header.bounds.origin.x + 20, y: header.bounds.origin.y, width: 100, height: header.bounds.height)
             header.textLabel?.textColor = .white
+            header.textLabel?.text = header.textLabel?.text?.capitalizeFirstLetter()
         }
     }
     

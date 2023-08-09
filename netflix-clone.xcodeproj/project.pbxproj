@@ -10,6 +10,7 @@
 		A64860892A8360C3008D1D3C /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64860882A8360C3008D1D3C /* APICaller.swift */; };
 		A648608D2A837219008D1D3C /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A648608C2A837219008D1D3C /* AccessToken.swift */; };
 		A648608F2A83744D008D1D3C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A648608E2A83744D008D1D3C /* Movie.swift */; };
+		A64860912A839876008D1D3C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64860902A839876008D1D3C /* Extensions.swift */; };
 		A686B3572A811456007F4D9D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B3562A811456007F4D9D /* HomeViewController.swift */; };
 		A686B3592A811486007F4D9D /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B3582A811486007F4D9D /* UpcomingViewController.swift */; };
 		A686B35B2A8114B2007F4D9D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686B35A2A8114B2007F4D9D /* SearchViewController.swift */; };
@@ -27,6 +28,7 @@
 		A64860882A8360C3008D1D3C /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		A648608C2A837219008D1D3C /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		A648608E2A83744D008D1D3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A64860902A839876008D1D3C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		A686B3562A811456007F4D9D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A686B3582A811486007F4D9D /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		A686B35A2A8114B2007F4D9D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		A686B3642A812559007F4D9D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A64860902A839876008D1D3C /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				A686B3692A81D033007F4D9D /* HeroHeaderUIView.swift in Sources */,
 				A686B35D2A8114F3007F4D9D /* DownloadsViewController.swift in Sources */,
 				A6997E222A78F92A00909150 /* AppDelegate.swift in Sources */,
+				A64860912A839876008D1D3C /* Extensions.swift in Sources */,
 				A6997E242A78F92A00909150 /* SceneDelegate.swift in Sources */,
 				A686B3592A811486007F4D9D /* UpcomingViewController.swift in Sources */,
 				A686B3572A811456007F4D9D /* HomeViewController.swift in Sources */,
